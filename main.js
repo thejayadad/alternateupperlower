@@ -12,17 +12,6 @@ function upperLowerCase (words) {
 console.log(upperLowerCase(["jason", "jj", "jack", "jazz"]))
 
 
-// let words = ["jace", "jada"]
-
-// words.map(function(item, i){
-//     if((i + 1) % 2 === 0){
-//         item.toUpperCase
-//     }  else{
-//         item.toLowerCase
-//     }
-// })
-
-// console.log(alter(["jj", "ij"]))
 
 let names = ["jace", "jack", "jada", "jackson"]
 
@@ -30,7 +19,7 @@ let alter = names.map((name, i) => {
     if ( (i + 1) % 2 ==0){
         return name.toLowerCase()
     } else {
-        return name.toLocaleUpperCase()
+        return name.toUpperCase()
     }
 })
 
